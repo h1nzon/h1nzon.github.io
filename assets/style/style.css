@@ -98,13 +98,13 @@ h1,h2,h3.h4,h5,h6,p{
 
 
 .menu{
-    animation: animate 1s linear;
-    animation-fill-mode:forwards
+    filter: blur(20px);
+    animation-fill-mode: forwards;
 }
 
 @keyframes animate {
     0% {
-        filter: blur(20px);
+        filter: blur(20px)
     }
 
     100% {

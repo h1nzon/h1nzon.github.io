@@ -28,3 +28,9 @@ function videoPlay() {
     document.getElementById('myVideo').play();
     document.removeEventListener('click', videoPlay);
 }
+
+let video = document.getElementById("myVideo");
+video.onloadeddata = function() {
+    document.getElementById(`menu`).style.filter = `none`;
+    document.getElementById(`menu`).style.animation="animate 1s linear";
+}

@@ -7,7 +7,7 @@ let mySource = document.getElementById(`myVideo`);
 
 // Параметры плеера
 
-let videoLength = 4; // количество видео файлов
+let videoLength = 5; // количество видео файлов
 let pathVideo = `assets/video-bg/`; // путь до видео
 let indexTag = `` // например background1.mp4, в данном случае background - tag
 let fileFormat = '.mp4' // формат видоефайлов
